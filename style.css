@@ -251,3 +251,80 @@ section {
   background: linear-gradient(135deg, #3b82f6, #60a5fa);
 
 }
+
+@media (max-width: 1024px) {
+    header {
+        padding: 10px 50px;
+    }
+
+    section {
+        padding: 80px 50px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .card, .project-card {
+        width: 18em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .navigation a {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    .main h2 span {
+        font-size: 2em;
+    }
+
+    .main h3 {
+        font-size: 1.2em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .project-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .social {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.4em;
+    }
+
+    .main h2 span {
+        font-size: 1.8em;
+    }
+
+    .main-btn {
+        padding: 0.7em 1.5em;
+        font-size: 1em;
+    }
+}
+

@@ -273,7 +273,8 @@ section {
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        padding: 10px 20px;
+        padding: 10px 5px;
+		gap: 10px;
     }
 
     .navigation a {
